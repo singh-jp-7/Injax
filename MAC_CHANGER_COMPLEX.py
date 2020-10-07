@@ -9,16 +9,6 @@ def macchanger():
     def get_arguments():
 
         """"Getting the interface name and the new mac address"""
-        
-        # parser = optparse.OptionParser()
-        # parser.add_option("-i", "--interface", dest="interface", help="Interface to change the MAC Address of")
-        # parser.add_option("-m", "--mac", dest="new_mac", help="New MAC Address")
-        # (options, arguments) = parser.parse_args()
-        # if not options.interface:
-        #     parser.error("Please specify an interface or use --help for more info.")
-        # elif not options.new_mac:
-        #     parser.error("Please specify a new mac address or use -- help for more info.")
-        # return options
         interface = input("\n\nTell the interface name for which you want to change the MAC Address :")
         new_mac = input("Provide a new MAC address for " + interface + ": ")
         option = (interface,new_mac)
