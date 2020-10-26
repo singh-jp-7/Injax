@@ -58,7 +58,7 @@ try:
         sp.call("figlet websploit -c", shell=True)
         print("\n-*-*-*-*-*-*--*-*-*-*--*-*-*--*-*-*-*-*--*-*-*-*--*-*-*--*-*-*--*-*-*--*-*-*-*-*-")
         print("\n\n\t\tA linux system application software for penetration testing. ")
-        print("\n\nVer 1.0.0 developed by Inder, Jaspreet and Jasmine.\n")
+        print("\n\nVer 1.0.0 developed by Jaspreet Singh <ws.com540@gmail.com> \n")
         print("No show without root so, run as root or don't !\n\n")
         options()
 
