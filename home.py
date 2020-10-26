@@ -13,10 +13,10 @@ try:
         print("2. [-]Scan your Network for connected devices !")
         print("3. [-]ARP Spoof the target !")
         print("4. [-]Man in the Middle Attacks !")
-        print("5. [-]Intercepting Files !")
-        print("6. [-]Bypass HTTPS !")
-        print("7. [-]ARP Spoof detector !")
-        print("8. [-]Malwares !")
+#         print("5. [-]Intercepting Files !")
+#         print("6. [-]Bypass HTTPS !")
+#         print("7. [-]ARP Spoof detector !")
+#         print("8. [-]Malwares !")
         print("\nPress 0 to stop !")
         n = int(input("\nSelect carefully what you want to do :"))
         if n == 0:
@@ -42,14 +42,14 @@ try:
             sniffer()
             print("\n\nWhat next?\n\n")
             options()
-        elif n ==7:
-            arp_detect()
-            print("\n\nWhat next?\n\n")
-            options()
-        elif n ==8:
-            keylog()
-            print("\n\nWhat next?\n\n")
-            options()
+#         elif n ==7:
+#             arp_detect()
+#             print("\n\nWhat next?\n\n")
+#             options()
+#         elif n ==8:
+#             keylog()
+#             print("\n\nWhat next?\n\n")
+#             options()
         else:
             print("\n\nPlease select the correct option!\n\n")
             options()
