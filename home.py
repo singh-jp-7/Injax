@@ -55,7 +55,7 @@ try:
             options()
     def show():
         # sp.call("sudo apt install figlet", shell = True)
-        sp.call("figlet websploit -c", shell=True)
+        sp.call("figlet INJAX -c", shell=True)
         print("\n-*-*-*-*-*-*--*-*-*-*--*-*-*--*-*-*-*-*--*-*-*-*--*-*-*--*-*-*--*-*-*--*-*-*-*-*-")
         print("\n\n\t\tA linux system application software for penetration testing. ")
         print("\n\nVer 1.0.0 developed by Jaspreet Singh <ws.com540@gmail.com> \n")
