@@ -1,7 +1,7 @@
 # Injax
 A penetration testing tool designed for devices using linux.
 
-#Requirements:
+Requirements:
 
 The following packages need to be installed on the device on which the tool is intended to use:
 1. Scapy
